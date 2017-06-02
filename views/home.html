@@ -79,7 +79,7 @@ small {
         <p>Select an Address to see the details: </p>
         {{! for loop }}
 			<ul>
-			{{#each children}}
+			{{#each names}}
 				{{! current context value corresponds to each child}}
 				<li>
 				<form method="get" action="/get?name="+{{this}}>
